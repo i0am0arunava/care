@@ -7,6 +7,9 @@ on:
     branches:
       - develop
       - staging
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
